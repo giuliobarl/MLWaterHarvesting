@@ -1,4 +1,4 @@
-# ML_WaterHarvesting
+# MLWaterHarvesting
 This repository contains codes related to the publication "Investigating machine learning models to predict atmospheric water harvesting from an ion deposited membrane" ().
 Datasets and trained models are published on our Zenodo repository https://doi.org/10.5281/zenodo.10533012.
 
