@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 29 22:11:50 2022
-
-@author: Giulio
-"""
-
 #Libraries needed to run the tool
 import numpy as np
 import pandas as pd
