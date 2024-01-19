@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 29 10:38:17 2023
-
-@author: Giulio
-"""
-
 import numpy as np
 import pandas as pd
 from statistics import mean, stdev
