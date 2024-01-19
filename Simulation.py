@@ -24,7 +24,17 @@ data = data.drop(columns = ['Time'], axis = 1)
 
 data_scaled = (data - minval) / minmax
 
-nn = pickle.load(open('nn.pkl', 'rb'))
+# ask for model to use
+name = input('Model to use for prediction (gbr, mlp, svr): \n')
+
+if name == 'gbr':
+    model = pickle.load(open('gbm.pkl', 'rb'))
+    
+if name == 'mlp':
+    model = pickle.load(open('nn.pkl', 'rb'))
+    
+if name == 'svr':
+    model = pickle.load(open('svr.pkl', 'rb'))
 
 results_scaled = nn.predict(data_scaled)
 
