@@ -1,8 +1,6 @@
 #Libraries needed to run the tool
 import numpy as np
 import pandas as pd
-from numpy import mean
-from sklearn.neural_network import MLPRegressor
 import pickle
 import matplotlib.pyplot as plt
 
@@ -36,7 +34,7 @@ if name == 'mlp':
 if name == 'svr':
     model = pickle.load(open('svr.pkl', 'rb'))
 
-results_scaled = nn.predict(data_scaled)
+results_scaled = model.predict(data_scaled)
 
 # unscale the predicted values 
 results = (results_scaled * minmax_water + minval_water)*60/50
