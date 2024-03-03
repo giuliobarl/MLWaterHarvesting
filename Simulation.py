@@ -66,7 +66,8 @@ twin1.set_ylim(20, 40)
 twin2.set_ylim(0, 60)
 
 ax.set_xlabel("Time", size = 20)
-ax.set_xticklabels(time, rotation = 'vertical', size = 15)
+for label in ax.set_xticklabels(time, rotation = 'vertical', size = 15)[1::2]:
+    label.set_visible(False)
 ax.set_ylabel("Collected volume [ml]", size = 20)
 twin1.set_ylabel("Temperature [°C]", size = 20)
 twin2.set_ylabel("Relative humidity [%]", size = 20)
