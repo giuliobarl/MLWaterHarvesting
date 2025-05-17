@@ -55,7 +55,7 @@ sip @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/sip_17290434
 six @ file:///tmp/build/80754af9/six_1644875935023/work
 stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
 threadpoolctl @ file:///C:/b/abs_3904pspv77/croot/threadpoolctl_1731006105881/work
-tornado @ file:///D:/bld/tornado_1732615920207/work
+tornado @ file:///D:/bld/tornado_1747384467501/work
 tqdm @ file:///C:/b/abs_0eh9b6xugj/croot/tqdm_1738945553987/work
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1733188668063/work
