@@ -18,7 +18,7 @@ ipython @ file:///D:/bld/ipython_1734788189411/work
 jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1733300866624/work
 joblib @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/joblib_1729044354027/work
 jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1733440914442/work
-jupyter_core @ file:///D:/bld/jupyter_core_1727163532151/work
+jupyter_core @ file:///C:/b/abs_7c6fipznw3/croot/jupyter_core_1751991383524/work
 kiwisolver @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/kiwisolver_1729044479439/work
 matplotlib==3.9.2
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work
@@ -50,7 +50,8 @@ pywin32==307
 pyzmq @ file:///C:/b/abs_f3yte6j5yn/croot/pyzmq_1734711069724/work
 scikit-learn @ file:///C:/b/abs_69a_gdu9bf/croot/scikit-learn_1734547445211/work/dist/scikit_learn-1.5.2-cp313-cp313-win_amd64.whl#sha256=3f9d066b4e0f53262a8feec72691647e592203324a43f2067412881a55e1b684
 scipy @ file:///C:/Users/dev-admin/cr_scipy-release/scipy_1731630818606/work/dist/scipy-1.14.1-cp313-cp313-win_amd64.whl#sha256=4d4fa6f20a189edf7aabdae0f6764058f55db8378dbf20cf45ee27e362a40718
-setuptools==78.1.1
+seaborn @ file:///C:/b/abs_0bv5x0ucxb/croot/seaborn_1749110315600/work
+setuptools==80.9.0
 sip @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/sip_1729043416245/work
 six @ file:///tmp/build/80754af9/six_1644875935023/work
 stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
